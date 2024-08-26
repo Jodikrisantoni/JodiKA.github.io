@@ -50,3 +50,98 @@ button {
 button:hover {
     background-color: rgb(0,136,169,0.8);
 }
+
+
+
+
+/* profile picture and description (mainboard)*/
+.mainboard, .inside-mainboard, .intro, .icon, .text-intro {
+    background-color: #5b5f6b;
+}
+
+.mainboard {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    height: 320px;
+
+}
+.inside-mainboard {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profilepicture {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    transition: 0.3s ease;
+}
+.profilepicture:hover {
+    transform: scale(1.2);
+
+}
+.intro {
+    max-width: 400px;
+}
+
+.icon {
+    width: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.icon:hover {
+    transform: scale(1.2);
+}
+
+
+
+/* project */
+.container-project {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-project-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%; 
+    max-width: 1200px; 
+}
+
+.project-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container-box {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+.box1, .box2, .box3 {
+    width: 100px;
+    height: 160px;
+    background-color: #3498db; 
+    border-radius: 10px;
+}
+
+
+.box1 {
+    background-color: #e74c3c; 
+}
+
+.box2 {
+    background-color: #2ecc71;
+}
+
+.box3 {
+    background-color: #f1c40f;
+}
